@@ -1,0 +1,102 @@
+html{
+    background-color:  rgb(236, 255, 255);
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    border-top: double grey 2px;
+    border-bottom: double grey 2px;
+    background-color: rgb(215, 255, 255);
+}
+h1, h2{
+    font-family: "Josefin Slab", serif;
+    margin: .2em;
+    padding: 0;
+}
+span{
+    font-family: "Noto Sans JP", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-bottom: 2em;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+li{
+    padding-top: .5em;
+    margin: 0;
+    list-style-type: none;
+}
+
+img{
+    border: black solid 1em;
+}
+
+.paragraph{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph p{
+    padding: 1em;
+}
+
+.vocab-and-grammar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(217, 255, 255, 0.73);
+}
+.numbered-lines{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.numbered-lines ol{
+    width: 40%;
+    margin: 2em;
+    padding: 1em;
+
+    background-color:rgb(236, 255, 255);
+    border-top: double grey 2px;
+}
+ul li, .romaji{
+    color:rgb(31, 69, 34);
+}
+
+.romaji{
+    background-color: white;
+}
+
+.vocab-group{
+    background-color: rgb(236, 255, 255);
+    padding: 1em;
+}
+
+.line-bg{
+    background-color:  white;
+}
+
+.listen-whole{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
